@@ -1,6 +1,7 @@
 {
   "name": "react",
   "version": "1.0.0",
+  "homepage": "https://asmaaelalfy123.github.io/monsters",
   "description": "React example starter project",
   "keywords": [
     "react",
@@ -19,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
